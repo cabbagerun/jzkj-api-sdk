@@ -1,0 +1,24 @@
+{
+    "name": "jianzhi/jzkj-api-sdk",
+    "description": "jianzhi dsh api php client",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "TIM",
+    "autoload": {
+        "psr-4": {
+            "Jianzhi\\Dshapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jianzhi",
+            "email": "jishuyanfa@jianzhikeji.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}
